@@ -1,0 +1,174 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="menu">
+					<div class="menu-button">
+						<span class="menu-button-top"></span>
+						<span class="menu-button-bottom"></span>
+					</div>
+					<span class="current-page">Home</span>
+					<ul class="menu-items">
+						<li class="menu-item active">
+							<a href="">Home</a>
+						</li>
+						<li class="menu-item">
+							<a href="">Insurance Basics</a>
+						</li>
+						<li class="menu-item">
+							<a href="">Plans &amp; Coverage</a>
+						</li>
+						<li class="menu-item">
+							<a href="">Providers &amp; Facilities</a>
+						</li>
+						<li class="menu-item">
+							<a href="">Health &amp; Wellness</a>
+						</li>
+					</ul>
+				</div>
+				<div class="login-button menu-item">Login</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="masthead">
+				<div class="container">
+					<div class="carousel-text">
+						<h1>Need Help with Plan Selection?</h1>
+						<h3>We provide personalized guidance.</h3>
+						<button>Learn More</button>
+					</div>
+					<ul class="carousel-dots">
+						<li class="left-arrow"></li>
+						<li class="carousel-dot"></li>
+						<li class="carousel-dot"></li>
+						<li class="carousel-dot active"></li>
+						<li class="right-arrow"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row sections">
+					<div class="col-sm-4 section">
+						<h4 class="section-title">
+							Find a Provider
+							<button class="section-button">Search</button>
+						</h4>
+						<div class="section-text">
+							<p>We offer access to more than 1 million physicians, provider facilities, hospitals and other care centers in our provider networks.</p>
+							<p>Search for a doctor or facility by name or provider type.</p>
+							<button>Search</button>
+						</div>
+					</div>
+					<div class="col-sm-4 section">
+						<h4 class="section-title">
+							Why Choose Us?
+							<button class="section-button">Get Started</button>
+						</h4>
+						<div class="section-text">
+							<ul>
+								<li>Expansive provider network</li>
+								<li>Health &amp; wellness program</li>
+								<li>Experienced customer support team</li>
+							</ul>
+							<button>Get Started</button>
+						</div>
+					</div>
+					<div class="col-sm-4 section">
+						<h4 class="section-title">
+							Need Health Insurance?
+							<button class="section-button">View Plans</button>
+						</h4>
+						<div class="section-text">
+							<p>Check out our complete listing of plans for families and individuals.</p>
+							<p><a href="">Individual &amp; Family Plans <span class="right-arrow"></span></a></p>
+							<p><a href="">Medigap Plans <span class="right-arrow"></span></a></p>
+							<p><a href="">Dental Plans <span class="right-arrow"></span></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="discounts row">
+					<div class="col-sm-12">
+						<p><b>Exclusive Member Discounts</b></p>
+	
+						<p>As a member, you have access to a variety of wellness discounts and are rewarded for getting healthy and staying healthy.</p>
+
+						<p><a href="">Discounts on Wellness Services <span class="right-arrow"></span></a></p>
+
+						<p><a href="">Healthy Rewards Incentives <span class="right-arrow"></span></a></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 footer-section">
+						<div class="footer-section-header">About Us</div>
+						<ul class="footer-list">
+							<li class="footer-list-item">Company Overview</li>
+							<li class="footer-list-item">History</li>
+							<li class="footer-list-item">Corporate Services &amp; Locations</li>
+							<li class="footer-list-item">Service Area</li>
+							<li class="footer-list-item">Annual Reports</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 footer-section">
+						<div class="footer-section-header">Careers</div>
+						<ul class="footer-list">
+							<li class="footer-list-item">Search Job Openings</li>
+							<li class="footer-list-item">Career Areas</li>
+							<li class="footer-list-item">Students &amp; Graduates</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 footer-section">
+						<div class="footer-section-header">Media</div>
+						<ul class="footer-list">
+							<li class="footer-list-item">News Releases</li>
+							<li class="footer-list-item">Multimedia Resources</li>
+							<li class="footer-list-item">Health Care Resources</li>
+							<li class="footer-list-item">Media Inquiries</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 footer-section">
+						<div class="footer-section-header">Legal &amp; Mandates</div>
+						<ul class="footer-list">
+							<li class="footer-list-item">2015 ACA Rate Increase Justification</li>
+							<li class="footer-list-item">Patient Rights &amp; Responsibilities</li>
+							<li class="footer-list-item">HIPAA</li>
+							<li class="footer-list-item">Health Care Fraud Prevention</li>
+							<li class="footer-list-item">Member's Privacy Policy</li>
+							<li class="footer-list-item">Quality Improvement</li>
+							<li class="footer-list-item">Mental Health Parity</li>
+							<li class="footer-list-item">MD Proposed Rate Increase Law</li>
+							<li class="footer-list-item">Virginia Claims or Coverage Denials</li>
+							<li class="footer-list-item">Machine Readable Data</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.menu-button').on('click', function () {
+					$('.menu').toggleClass('open');
+				});
+
+				$('.footer-section-header').on('click', function () {
+					var thisSection = $(this).parent();
+					var wasOpen = thisSection.hasClass('open');
+					$('.footer-section').removeClass('open');
+					if (!wasOpen) {
+						thisSection.addClass('open');
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
