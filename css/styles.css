@@ -80,8 +80,11 @@ body {
 }
 
 .carousel-text {
-	padding: 15px;
+	padding: 15px 30px;
 	color: #003366;
+	width: 390px;
+	position: absolute;
+	top: 0;
 }
 
 button {
@@ -89,6 +92,7 @@ button {
 	color: #eee;
 	border: none;
 	padding: 5px 10px;
+	margin-top: 10px;
 }
 
 .carousel-dots {
@@ -201,6 +205,11 @@ button {
 	font-size: 11px;
 }
 
+.footer-list-item:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
 	.menu-items {
 		background: #003366;
@@ -279,6 +288,11 @@ button {
 
 	.menu.open .menu-button-bottom {
 		transform: translateY(0px) rotate(-135deg);
+	}
+
+	.masthead img {
+		width: 150%;
+		margin-left: -50%;
 	}
 
 	.carousel-text {
